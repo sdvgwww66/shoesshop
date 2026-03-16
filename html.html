@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeBot - Помощник по покупке обуви</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="bot-info">
+                <div class="bot-avatar">👟</div>
+                <div>
+                    <h2>ShoeBot</h2>
+                    <span class="bot-status">Онлайн</span>
+                </div>
+            </div>
+            <button class="clear-chat-btn" id="clearChat">
+                🗑️ Очистить
+            </button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Приветственное сообщение -->
+            <div class="message bot-message">
+                Привет! Я бот-помощник по подбору обуви. 👟
+                <br><br>
+                Я могу помочь вам:
+                <br>• Посмотреть каталог обуви
+                <br>• Подобрать размер
+                <br>• Узнать о скидках
+                <br>• Оформить заказ
+                <br><br>
+                Напишите "каталог" или выберите категорию:
+            </div>
+            <div class="quick-replies">
+                <button class="quick-reply" data-category="sneakers">Кроссовки</button>
+                <button class="quick-reply" data-category="boots">Ботинки</button>
+                <button class="quick-reply" data-category="sandals">Сандалии</button>
+                <button class="quick-reply" data-category="sale">Скидки 🔥</button>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <textarea 
+                id="messageInput" 
+                placeholder="Введите сообщение..."
+                rows="1"
+            ></textarea>
+            <button id="sendButton" class="send-btn">
+                Отправить
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

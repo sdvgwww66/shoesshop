@@ -1,0 +1,13 @@
+shoe-bot/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   ├── modules/
+│   │   ├── chat.js
+│   │   ├── botResponses.js
+│   │   └── storage.js
+│   └── utils/
+│       └── validation.js
+└── README.md
