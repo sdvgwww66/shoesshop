@@ -13,7 +13,7 @@
   ### 🤖 Умный бот для выбора и покупки обуви прямо в Telegram
 
   [👉 Попробовать бота](@shoesshop67_bot) • 
-  [📱 Открыть Web App]([https://yourusername.github.io/shoe-bot/](https://sdvgwww66.github.io/shoesshop/)) • 
+  [📱 Открыть Web App](https://sdvgwww66.github.io/shoesshop/) • 
   [📖 Документация](#-о-проекте)
 
 </div>
